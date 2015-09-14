@@ -1,0 +1,14 @@
+.btn-circle {
+
+    border-radius: 100px;
+    background-color: #649afb;
+}
+.custom > li > a:hover {
+    color: lightblue;
+}
+
+
+body {background-color: lightgray}
+h1 {color: #649afb; font-size: 500%; background-color: lightgray;text-align: center; font-family: "Menlo",fantasy; font-weight: 900 }
+p {background-color: lightgray; font-family: "Menlo",fantasy}
+h2 {color: #649afb; font-size: 500%; background-color: lightgray;text-align: center; font-family: "Menlo",fantasy; font-weight: 900 }
