@@ -1,266 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Document meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="ISU Web Dev Club members">
-    <meta name="description" content="The Web Development Club at Iowa State University is a community of students who want to learn about and practice web development.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <!-- Document meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="author" content="ISU Web Dev Club members">
+        <meta name="description" content="The Web Development Club at Iowa State University is a community of students who want to learn about and practice web development.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Other meta -->
-    <meta name="description" content="The Web Development Club at Iowa State University is a community of students who want to learn about and practice web development.">
-    <meta name="author" content="ISU Web Dev Club members">
-    <link rel="icon" href="../favicon.ico">
-    <title>Members | Web Development Club</title>
+        <!-- Other meta -->
+        <meta name="description" content="The Web Development Club at Iowa State University is a community of students who want to learn about and practice web development.">
+        <meta name="author" content="ISU Web Dev Club members">
+        <link rel="icon" href="../favicon.ico">
+        <title>Members | Web Development Club</title>
 
-    <!-- Vendor CSS -->
-    <link rel="stylesheet" href="../static/vend/bootstrap-3.3.5/bootstrap.min.css" />
-    <link rel="stylesheet" href="../static/vend/bootstrap-3.3.5/bootstrap-theme.min.css" />
-    <link rel="stylesheet" href="../static/vend/font-awesome-4.4.0/font-awesome.min.css" />
-    <link rel="stylesheet" href="../static/vend/bootstrap-social-4.10.1.css" />
+        <!-- Vendor CSS -->
+        <link rel="stylesheet" href="../static/vend/bootstrap-3.3.5/bootstrap.min.css" />
+        <link rel="stylesheet" href="../static/vend/bootstrap-3.3.5/bootstrap-theme.min.css" />
+        <link rel="stylesheet" href="../static/vend/font-awesome-4.4.0/font-awesome.min.css" />
+        <link rel="stylesheet" href="../static/vend/bootstrap-social-4.10.1.css" />
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="../static/css/site-theme.css" />
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="../static/css/site-theme.css" />
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script type="text/javascript" src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script type="text/javascript" src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
-<body>
-<div id="navbar"></div>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script type="text/javascript" src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script type="text/javascript" src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div id="navbar"></div>
 
-<div class="container">
-    <div class="page-header">
-        <h1>Members</h1>
-    </div>
-
-    <div class="row">
-
-        <div class="col-lg-3">
-            <div class="thumbnail member-thumbnail">
-                <img src="http://www.placecage.com/g/200/200" class="img-circle" alt="picture api broken">
-
-                <div class="caption">
-                    <h3>nick cage</h3>
-
-                    <p>Mustachio extraordinaire</p>
-                </div>
+        <div class="container">
+            <div class="page-header">
+                <h1>Members</h1>
             </div>
+
+            <div id="content"></div>
         </div>
 
-        <div class="col-lg-3">
-            <div class="thumbnail member-thumbnail">
-                <img src="http://www.placecage.com/g/200/200" class="img-circle" alt="picture api broken">
+        <div id="footer"></div>
 
-                <div class="caption">
-                    <h3>nick cage</h3>
+        <!-- Vendor JS -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="../static/js/ie10-viewport-bug-workaround.js"></script>
+        <script type="text/javascript" src="../static/vend/bootstrap-3.3.5/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../static/vend/react-0.13.3/react.min.js"></script>
+        <script type="text/javascript" src="../static/vend/react-0.13.3/JSXTransformer.js"></script>
 
-                    <p>Mustachio extraordinaire</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3">
-            <div class="thumbnail member-thumbnail">
-                <img src="http://www.placecage.com/g/200/200" class="img-circle" alt="picture api broken">
-
-                <div class="caption">
-                    <h3>nick cage</h3>
-
-                    <p>Mustachio extraordinaire</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3">
-            <div class="thumbnail member-thumbnail">
-                <img src="http://www.placecage.com/g/200/200" class="img-circle" alt="picture api broken">
-
-                <div class="caption">
-                    <h3>nick cage</h3>
-
-                    <p>Mustachio extraordinaire</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <div class="row">
-
-        <div class="col-lg-3">
-            <div class="thumbnail member-thumbnail">
-                <img src="http://www.placecage.com/g/200/200" class="img-circle" alt="picture api broken">
-
-                <div class="caption">
-                    <h3>nick cage</h3>
-
-                    <p>Mustachio extraordinaire</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3">
-            <div class="thumbnail member-thumbnail">
-                <img src="http://www.placecage.com/g/200/200" class="img-circle" alt="picture api broken">
-
-                <div class="caption">
-                    <h3>nick cage</h3>
-
-                    <p>Mustachio extraordinaire</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3">
-            <div class="thumbnail member-thumbnail">
-                <img src="http://www.placecage.com/g/200/200" class="img-circle" alt="picture api broken">
-
-                <div class="caption">
-                    <h3>nick cage</h3>
-
-                    <p>Mustachio extraordinaire</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3">
-            <div class="thumbnail member-thumbnail">
-                <img src="http://www.placecage.com/g/200/200" class="img-circle" alt="picture api broken">
-
-                <div class="caption">
-                    <h3>nick cage</h3>
-
-                    <p>Mustachio extraordinaire</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <div class="row">
-
-        <div class="col-lg-3">
-            <div class="thumbnail member-thumbnail">
-                <img src="http://www.placecage.com/g/200/200" class="img-circle" alt="picture api broken">
-
-                <div class="caption">
-                    <h3>nick cage</h3>
-
-                    <p>Mustachio extraordinaire</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3">
-            <div class="thumbnail member-thumbnail">
-                <img src="http://www.placecage.com/g/200/200" class="img-circle" alt="picture api broken">
-
-                <div class="caption">
-                    <h3>nick cage</h3>
-
-                    <p>Mustachio extraordinaire</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3">
-            <div class="thumbnail member-thumbnail">
-                <img src="http://www.placecage.com/g/200/200" class="img-circle" alt="picture api broken">
-
-                <div class="caption">
-                    <h3>nick cage</h3>
-
-                    <p>Mustachio extraordinaire</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3">
-            <div class="thumbnail member-thumbnail">
-                <img src="http://www.placecage.com/g/200/200" class="img-circle" alt="picture api broken">
-
-                <div class="caption">
-                    <h3>nick cage</h3>
-
-                    <p>Mustachio extraordinaire</p>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <div class="row">
-
-        <div class="col-lg-3">
-            <div class="thumbnail member-thumbnail">
-                <img src="http://www.placecage.com/g/200/200" class="img-circle" alt="picture api broken">
-
-                <div class="caption">
-                    <h3>nick cage</h3>
-
-                    <p>Mustachio extraordinaire</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3">
-            <div class="thumbnail member-thumbnail">
-                <img src="http://www.placecage.com/g/200/200" class="img-circle" alt="picture api broken">
-
-                <div class="caption">
-                    <h3>nick cage</h3>
-
-                    <p>Mustachio extraordinaire</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3">
-            <div class="thumbnail member-thumbnail">
-                <img src="http://www.placecage.com/g/200/200" class="img-circle" alt="picture api broken">
-
-                <div class="caption">
-                    <h3>nick cage</h3>
-
-                    <p>Mustachio extraordinaire</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3">
-            <div class="thumbnail member-thumbnail">
-                <img src="http://www.placecage.com/g/200/200" class="img-circle" alt="picture api broken">
-
-                <div class="caption">
-                    <h3>nick cage</h3>
-
-                    <p>Mustachio extraordinaire</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div id="footer"></div>
-
-<!-- Vendor JS -->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script type="text/javascript" src="../static/js/ie10-viewport-bug-workaround.js"></script>
-<script type="text/javascript" src="../static/vend/bootstrap-3.3.5/bootstrap.min.js"></script>
-<script type="text/javascript" src="../static/vend/react-0.13.3/react.min.js"></script>
-<script type="text/javascript" src="../static/vend/react-0.13.3/JSXTransformer.js"></script>
-
-<!-- Custom JSX -->
-<script type="text/jsx" src="../static/js/navbar.jsx"></script>
-<script type="text/jsx">
-  React.render(
-          <NavBar active="Members" nested={1} />,
-          document.getElementById('navbar')
-  );
-</script>
-<script type="text/jsx" src="../static/js/footer.jsx"></script>
-
-</body>
+        <!-- Custom JSX -->
+        <script type="text/jsx" src="../static/js/navbar.jsx"></script>
+        <script type="text/jsx">
+            React.render(
+                <NavBar active="Members" nested={1} />,
+                document.getElementById('navbar')
+            );
+        </script>
+        <script type="text/jsx" src="../static/js/footer.jsx"></script>
+        <script type="text/jsx" src="../static/js/memberList.jsx"></script>
+    </body>
 </html>
