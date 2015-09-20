@@ -1,0 +1,35 @@
+{
+  "active": "Omnipotent Cage",
+  "projects": {
+    "Omnipotent Cage": {
+      "description": "Nicolas Cage displays his omnipotent powers for the first time.",
+      "image": "cage_omnipotent/omnipotent.jpg",
+      "page": "cage_omnipotent/omnipotent.html"
+    },
+    "Extra Terrestrial Cage": {
+      "description": "Nicolas Cage plays the starring role in the upcoming ET remake.",
+      "image": "cage_et/et.png",
+      "page": "cage_et/et.html"
+    },
+    "Beekeeper Cage": {
+      "description": "Nicolas Cage knows that pancakes go best with honey.",
+      "image": "cage_bees/bees.jpg",
+      "page": "cage_bees/bees.html"
+    },
+    "Cardinal Cage": {
+      "description": "Nicolas Cage visits the Vatican to help elect the new pope.",
+      "image": "cage_vatican/vatican.png",
+      "page": "cage_vatican/vatican.html"
+    },
+    "6-Pack Cage": {
+      "description": "Nicolas Cage works vey hard to stay in peak physical condition.",
+      "image": "cage_abs/abs.jpg",
+      "page": "cage_abs/abs.html"
+    },
+    "Kitten Cage": {
+      "description": "Nicolas Cage loves animals.  Here are his two adorable kittens.",
+      "image": "cage_cat/cat.jpg",
+      "page": "cage_cat/cat.html"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+#club-photos,
+#photos-container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+.wd-Figure--left.image,
+.wd-Figure--left > a,
+.wd-Figure--left > a > img {
+    width: 75%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.wd-Figure--left > a > img {
+    border: thin solid black;
+}
+#club-purpose,
+#club-history
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
