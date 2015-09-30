@@ -16,7 +16,7 @@ var NavBar = React.createClass({
         nested: React.PropTypes.number
     },
 
-    getLinks: function(pages, pathPrefix) {
+    getLinks: function(pages, pathPrefix, additionalTags) {
         var links = [];
         for (var page in pages) {
             if (!pages.hasOwnProperty(page)) {
@@ -26,7 +26,7 @@ var NavBar = React.createClass({
             if (this.props.active === page) {
                 links.push((
                     <li className="active">
-                        <a href="#">
+                        <a href="#" className={additionalTags + ' active'}>
                             {page}
                             <span className="sr-only">(current)</span>
                         </a>
@@ -37,7 +37,7 @@ var NavBar = React.createClass({
 
             links.push((
                 <li>
-                    <a href={pathPrefix + pages[page]}>{page}</a>
+                    <a href={pathPrefix + pages[page]} className={additionalTags}>{page}</a>
                 </li>
             ));
         }
@@ -58,11 +58,11 @@ var NavBar = React.createClass({
             pathPrefix += '../';
         }
 
-        var leftLinks = this.getLinks(this.leftPages, pathPrefix);
-        var rightLinks = this.getLinks(this.rightPages, pathPrefix);
+        var leftLinks = this.getLinks(this.leftPages, pathPrefix, '');
+        var rightLinks = this.getLinks(this.rightPages, pathPrefix, 'btn btn-contact btn-lg');
 
         return (
-            <nav className="navbar navbar-default">
+            <nav className="navbar navbar-default navbar-wdc">
                 <div className="container-fluid">
                     <div className="navbar-header">
                         <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#header-navbar-collapse" aria-expanded="false">
