@@ -31,6 +31,10 @@
     "Das Nick Cage": {
       "image": "http://www.placecage.com/g/500/500",
       "description": "Weirder than Weird Al"
+    },
+    "Blake Skaja": {
+      "image": "../_images/members/Blake_Skaja_Headshot.jpg",
+      "description": "My name is Blake."
     }
   }
 }
