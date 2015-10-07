@@ -31,6 +31,10 @@
     "Das Nick Cage": {
       "image": "http://www.placecage.com/g/500/500",
       "description": "Weirder than Weird Al"
+    },
+    "Shaun VanWeelden": {
+      "image": "../_images/members/shaun-vanweelden-md.jpg",
+      "description": "Shaun VanWeelden is a 5th year senior studying software engineering passionate about full stack web dev!"
     }
   }
 }
