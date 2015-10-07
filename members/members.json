@@ -33,8 +33,8 @@
       "description": "Weirder than Weird Al"
     },
     "Shaun VanWeelden": {
-      "image": "http://www.placecage.com/g/500/500",
-      "description": "Shaun VanWeelden is a 5th year senior studying software engineering. He's passionate about both frontend and backend development and has worked extensively with Javascript, HTML/CSS, jQuery, C#, Parse, Firebase, Java and many other web technologies. He's done web development work at Mircorosft, Amazon, and Boeing and is excited to see where his studies will take him."
+      "image": "../_images/members/shaun-vanweelden-md.jpg",
+      "description": "Shaun VanWeelden is a 5th year senior studying software engineering passionate about full stack web dev!"
     }
   }
 }
