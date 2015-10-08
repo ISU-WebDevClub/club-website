@@ -27,6 +27,11 @@
     "Das Nick Cage": {
       "image": "http://www.placecage.com/g/500/500",
       "description": "Weirder than Weird Al"
+    },
+        
+    "Paul Biermann": {
+        "image": "../_images/members/paul-biermann-md.jpg",
+        "description": "Computer Science Sophomore, Everybody's best friend"
     }
   }
 }
