@@ -1,8 +1,8 @@
 {
   "members": {
-    "Nicolas Cage": {
-      "image": "http://www.placecage.com/g/200/200",
-      "description": "Mustachio extraordinaire"
+    "Nathan Karasch": {
+      "image": "../_images/members/Karasch-Nathan-md.jpg",
+      "description": "WDC President. Retired rockstar. US Marine. Cookie monster."
     },
     "Jeffrey Judge": {
       "image": "../_images/members/judge-jeffrey-md.jpeg",
@@ -16,9 +16,17 @@
       "image": "../_images/members/branden-lange-md.jpg",
       "description": "What are snails even trying to do?"
     },
-    "Cagicus Nickolus": {
-      "image": "http://www.placecage.com/g/400/400",
-      "description": "Smiles that make babies cry"
+    "Robert Kloster": {
+      "image": "../_images/members/Kloster-Robert-md.jpg",
+      "description": "Senior in Software Engineering."
+    },
+    "Steff Bisinger": {
+      "image": "../_images/members/steff-bisinger-md.jpg",
+      "description": "WDC Founding Member, Model#INFOSEC1337"
+    },
+    "Blake Skaja": {
+      "image": "../_images/members/Skaja-Blake-md.jpg",
+      "description": "WDC Founding Member. Just a web developing fool."
     },
     "Nich Cage": {
       "image": "http://www.placecage.com/g/450/450",
@@ -27,6 +35,15 @@
     "Das Nick Cage": {
       "image": "http://www.placecage.com/g/500/500",
       "description": "Weirder than Weird Al"
+    },
+    "Leelabari Fulbel": {
+      "image": "../_images/leeimage.jpg",
+      "description": "Freshman in Software Engineering"
+    },
+    "Robert Stemig": {
+      "image": "../_images/members/stemig-robert-md.jpeg",
+      "description": "Junior in Computer Engineering"
+
     }
     "LeYang Loh": {
       "image": "../_images/members/loh-leyang-md.jpeg",
