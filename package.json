@@ -1,0 +1,13 @@
+{
+  "name": "isu-web-dev-club-website",
+  "version": "0.0.0",
+  "description": "The Web Development Club at Iowa State University is a community of students who want to learn about and practice web development.",
+  "author": "ISU Web Dev Club members",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ISU-WebDevClub/club-website"
+  },
+  "bugs": {
+    "url": "https://github.com/ISU-WebDevClub/club-website/issues"
+  }
+}

@@ -63,3 +63,55 @@ body {
 .page-header > h1 {
     margin-top: 100px;
 }
+
+.btn-contact {
+    background-color: hsl(0, 78%, 35%) !important;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e63b3b", endColorstr="#9e1313");
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#e63b3b), to(#9e1313));
+    background-image: -moz-linear-gradient(top, #e63b3b, #9e1313);
+    background-image: -ms-linear-gradient(top, #e63b3b, #9e1313);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e63b3b), color-stop(100%, #9e1313));
+    background-image: -webkit-linear-gradient(top, #e63b3b, #9e1313);
+    background-image: -o-linear-gradient(top, #e63b3b, #9e1313);
+    background-image: linear-gradient(#e63b3b, #9e1313);
+    border-color: #9e1313 #9e1313 hsl(0, 78%, 29.5%);
+    color: #fff !important;
+    font-weight: bold;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.36);
+    -webkit-font-smoothing: antialiased;
+    border-radius: 0;
+}
+
+.btn-contact:hover,
+.btn-contact:focus {
+    background-color: hsl(0, 78%, 30%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e42525", endColorstr="#881010");
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#e42525), to(#881010));
+    background-image: -moz-linear-gradient(top, #e42525, #881010);
+    background-image: -ms-linear-gradient(top, #e42525, #881010);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e42525), color-stop(100%, #881010));
+    background-image: -webkit-linear-gradient(top, #e42525, #881010);
+    background-image: -o-linear-gradient(top, #e42525, #881010);
+    background-image: linear-gradient(#e42525, #881010);
+    border-color: #881010 #881010 hsl(0, 78%, 24.5%);
+}
+
+.navbar-default .navbar-nav>.active>a.btn-contact,
+.btn-contact.active,
+.btn-contact.open {
+    background-color: hsl(0, 78%, 28%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c71818", endColorstr="#7f0f0f");
+    background-image: -khtml-gradient(linear, left top, left bottom, from(#c71818), to(#7f0f0f));
+    background-image: -moz-linear-gradient(top, #c71818, #7f0f0f);
+    background-image: -ms-linear-gradient(top, #c71818, #7f0f0f);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c71818), color-stop(100%, #7f0f0f));
+    background-image: -webkit-linear-gradient(top, #c71818, #7f0f0f);
+    background-image: -o-linear-gradient(top, #c71818, #7f0f0f);
+    background-image: linear-gradient(#c71818, #7f0f0f);
+    border-color: #7f0f0f #7f0f0f hsl(0, 78%, 24%);
+}
+
+.navbar-wdc {
+    border-radius: 0;
+}

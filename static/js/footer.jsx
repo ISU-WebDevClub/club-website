@@ -5,7 +5,7 @@ var Footer = React.createClass({
                 <div style={{marginTop: '20px'}}>
                     <span className="footer-text pull-left" style={{marginBottom: '0px', marginRight: '10px', maxWidth: '65%'}}>
                         <p className="text-muted" style={{marginBottom: '0px', marginTop: '7px'}}>
-                            For more information, <a href="mailto:ISUWebDevClub@gmail.com">send us an email</a> or check us out on social media.
+                            For more information, <a href="mailto:ISUWebDevClub@gmail.com">Contact Us</a> or check us out on social media.
                         </p>
                     </span>
                     <span className="pull-right">
