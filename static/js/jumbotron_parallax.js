@@ -1,4 +1,3 @@
-//var jumboHeight = $('.jumbotron').outerHeight();  This got set to zero
 var jumboHeight = 350;
 function parallax(){
     var scrolled = $(window).scrollTop();
