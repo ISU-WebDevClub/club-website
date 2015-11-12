@@ -95,7 +95,7 @@ var Member = React.createClass({
 
     render: function() {
         return (
-            <div className="col-lg-3">
+            <div className="col-lg-3 col-sm-6">
                 <div className="thumbnail member-thumbnail">
                     <img src={this.props.content.image} className="img-circle" alt="picture api broken" style={{width: '200px', height: '200px'}} />
                     <div className="caption">
