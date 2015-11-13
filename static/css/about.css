@@ -21,3 +21,29 @@
     margin-top: 40px;
     margin-bottom: 40px;
 }
+#Officers{
+    text-align: center;
+}
+#Officers h2{
+    text-align: left;
+    margin-bottom: -10px;
+}
+#Officers a{
+    color: white;
+    text-decoration: none;
+}
+
+@media (min-width: 300px) {
+    #Officers hr{
+        width: 50%;
+        margin-top: -5px;
+        margin-bottom: -1px;
+    }
+}
+@media (min-width: 925px) {
+    #Officers hr{
+        width: 100%;
+        margin-top: -5px;
+        margin-bottom: -1px;
+    }
+}
