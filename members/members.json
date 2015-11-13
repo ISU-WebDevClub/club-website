@@ -1,8 +1,13 @@
 {
   "members": {
+
     "Nathan Karasch": {
       "image": "../_images/members/Karasch-Nathan-md.jpg",
       "description": "WDC President. Retired rockstar. US Marine. Cookie monster."
+    },
+    "Charlie Steenhagen":{
+      "image": "../_images/members/Steenhagen-Charlie-md.jpg",
+      "description": "WDC Vice President & Treasurer. "
     },
     "Jeffrey Judge": {
       "image": "../_images/members/judge-jeffrey-md.jpeg",
