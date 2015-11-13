@@ -4,6 +4,10 @@
       "image": "../_images/members/Karasch-Nathan-md.jpg",
       "description": "WDC President. Retired rockstar. US Marine. Cookie monster."
     },
+    "Levi Baber": {
+      "image": "../_images/members/Baber-Levi-md.jpg",
+      "description": "WDC Adviser. IT Manager for ISU College of LAS."
+    },
     "Jeffrey Judge": {
       "image": "../_images/members/judge-jeffrey-md.jpeg",
       "description": "Freshman in Computer Science"
@@ -29,15 +33,15 @@
       "description": "WDC Founding Member. Just a web developing fool."
     },
     "Christine Hicaro": {
-      "image": "../_images/members/christine-hicaro.jpg",
+      "image": "../_images/members/Hicaro-Christine-md.jpg",
       "description": "Freshman in Software Engineering."
     },
-    "Das Nick Cage": {
-      "image": "http://www.placecage.com/g/500/500",
-      "description": "Weirder than Weird Al"
+    "Nick Cage": {
+      "image": "../_images/members/Cage-Nick-md.jpg",
+      "description": "Honorary member, image placeholder, and OG of the WDC."
     },
     "Leelabari Fulbel": {
-      "image": "../_images/leeimage.jpg",
+      "image": "../_images/members/Fulbel-Leelabari-md.jpg",
       "description": "Freshman in Software Engineering"
     },
     "Robert Stemig": {
