@@ -1,3 +1,4 @@
+
 #club-photos,
 #photos-container {
     margin-top: 40px;
@@ -22,7 +23,7 @@
     margin-bottom: 40px;
 }
 #Officers{
-    text-align: center;
+    text-align: left;
 }
 #Officers h2{
     text-align: left;
