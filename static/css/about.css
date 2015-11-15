@@ -1,4 +1,6 @@
-
+#club-photos h2{
+    text-align: left;
+}
 #club-photos,
 #photos-container {
     margin-top: 40px;
