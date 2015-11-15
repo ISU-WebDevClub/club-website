@@ -8,10 +8,20 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+
+  background: url(http://localhost:63342/club-website/WDCBrainstorm.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
+
 body {
   margin: 0;
 }
+
+h2{color: #649afb; font-size: 500%; text-align: center; font-family: "Menlo",fantasy; font-weight: 900 }
 article,
 aside,
 details,
@@ -27,6 +37,8 @@ section,
 summary {
   display: block;
 }
+h1 { color: #649afb; font-size: 500%; background-color: lightgray;text-align: center; font-family: "Menlo",fantasy; font-weight: 900 }
+p {background-color: lightgray; font-family: "Menlo",fantasy}
 audio,
 canvas,
 progress,
@@ -1410,7 +1422,7 @@ a.bg-danger:focus {
 }
 .page-header {
   padding-bottom: 9px;
-  margin: 40px 0 20px;
+  margin: 80px 0 20px;
   border-bottom: 1px solid #eee;
 }
 ul,
@@ -4543,6 +4555,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default {
   background-color: #f8f8f8;
   border-color: #e7e7e7;
+  box-shadow: 0 3px 3px rgba(35, 35, 36, 0.6);
 }
 .navbar-default .navbar-brand {
   color: #777;
