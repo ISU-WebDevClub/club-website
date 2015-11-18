@@ -1,3 +1,4 @@
+
 #club-photos h2{
     text-align: left;
 }
@@ -19,13 +20,19 @@
     border: thin solid black;
 }
 #club-purpose,
-#club-history
+#club-history,
+#Officers
 {
     margin-top: 40px;
     margin-bottom: 40px;
+    border-bottom: 1px solid #eee;
+
 }
-#Officers{
-    text-align: left;
+#purpose-list-container,
+#history,
+#officers
+{
+    margin-bottom: 40px;
 }
 #Officers h2{
     text-align: left;
@@ -35,7 +42,9 @@
     color: white;
     text-decoration: none;
 }
-
+#Officers img{
+    border-radius: 15px;
+}
 @media (min-width: 300px) {
     #Officers hr{
         width: 50%;
