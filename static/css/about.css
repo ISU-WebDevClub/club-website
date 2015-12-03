@@ -26,30 +26,41 @@
     margin-top: 40px;
     margin-bottom: 40px;
     border-bottom: 1px solid #eee;
-
 }
 #purpose-list-container,
 #history,
-#officers
+#Officers,
+#Advisor
 {
     margin-bottom: 40px;
 }
-#Officers h2{
+#Officers h2,
+#Advisor h2{
     text-align: left;
     margin-bottom: -10px;
 }
-#Officers a{
+#Officers a,
+#Advisor a{
     color: white;
     text-decoration: none;
 }
-#Officers img{
+#Officers img,
+#Advisor img{
     border-radius: 15px;
+    height: 256px;
+    width: 256px;
 }
+
 @media (min-width: 300px) {
-    #Officers hr{
+    #Officers hr,
+    #Advisor hr{
         width: 50%;
         margin-top: -5px;
         margin-bottom: -1px;
+    }
+    #Officers,
+    #Advisor{
+        text-align: center;
     }
 }
 @media (min-width: 925px) {
@@ -57,5 +68,14 @@
         width: 100%;
         margin-top: -5px;
         margin-bottom: -1px;
+    }
+    #Advisor hr{
+        width: 30%;
+        margin-top: -5px;
+        margin-bottom: -1px;
+    }
+    #Advisor p{
+        width: 40%;
+        margin: auto;
     }
 }
