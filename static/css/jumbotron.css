@@ -23,6 +23,7 @@
     color: white;
     text-shadow: black 0.3em 0.3em 0.3em;
     background:transparent;
+    width: 90%;
 }
 
 .jumbotron .container {
@@ -30,3 +31,16 @@
     top: -200px;
     left: 10%;
 }
+
+@media (min-width: 300px) {
+    .jumbotron {
+        width: 100%;
+    }
+}
+
+@media (min-width: 925px) {
+    .jumbotron {
+        width: 90%;
+    }
+}
+
