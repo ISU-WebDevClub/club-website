@@ -2,15 +2,15 @@
   "members": {
     "Nathan Karasch": {
       "image": "../_images/members/Karasch-Nathan-md.jpg",
-      "description": "WDC President. Retired rockstar. US Marine. Cookie monster."
+      "description": "Club Treasurer. Retired rockstar. US Marine. Cookie monster."
     },
     "Gregory Steenhagen": {
       "image": "../_images/members/Steenhagen-Charlie-md.jpg",
-      "description": "WDC Vice President and Treasurer. Coolest member."
+      "description": "Club President. Self-proclaimed coolest member."
     },
     "Levi Baber": {
       "image": "../_images/members/Baber-Levi-md.jpg",
-      "description": "WDC Adviser. IT Manager for ISU College of LAS."
+      "description": "Club Adviser. IT Manager for ISU College of LAS."
     },
     "Jeffrey Judge": {
       "image": "../_images/members/judge-jeffrey-md.jpeg",
@@ -30,19 +30,19 @@
     },
     "Steff Bisinger": {
       "image": "../_images/members/steff-bisinger-md.jpg",
-      "description": "WDC Founding Member, Model#INFOSEC1337"
+      "description": "Founding Member, Model#INFOSEC1337"
     },
     "Blake Skaja": {
       "image": "../_images/members/Skaja-Blake-md.jpg",
-      "description": "WDC Founding Member. Just a web developing fool."
+      "description": "Founding Member. Just a web developing fool."
     },
     "Christine Hicaro": {
       "image": "../_images/members/Hicaro-Christine-md.jpg",
-      "description": "Freshman in Software Engineering."
+      "description": "Club Outreach Chair. Freshman in Software Engineering."
     },
     "Leelabari Fulbel": {
       "image": "../_images/members/Fulbel-Leelabari-md.jpg",
-      "description": "Vice President and avid programmer. Freshman in Software Engineering",
+      "description": "Club Vice President and avid programmer. Freshman in Software Engineering",
       "link": "http://first-leelabari-fulbel-website.appspot.com/"
     },
     "Robert Stemig": {
