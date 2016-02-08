@@ -75,17 +75,17 @@
                     <br><br>
 
                     <div>
-                      <form action="contact.php" method="post" name="myemailform" enctype="multipart/form-data">
+                      <form action="contact.php" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post" name="myemailform" enctype="multipart/form-data">
                           <div class="form-group">
                               <label for="email">Your Email Address</label>
                               <input type="email" class="form-control" id="email" placeholder="Email" name="email">
                           </div>
                           <div class="form-group">
-                              <label for="org">Your Name or Organization</label>
+                              <label for="name">Your Name or Organization</label>
                               <input type="text" class="form-control" id="org" placeholder="Name/Organization" name="name">
                           </div>
                           <div class="form-group">
-                              <label for="msg">Your Message</label>
+                              <label for="message">Your Message</label>
                               <textarea class="form-control" rows="3" type="text" id="msg" placeholder="Message" name="message"></textarea>
                           </div>
                           <div class="form-group">
