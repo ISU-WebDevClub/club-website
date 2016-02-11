@@ -4,7 +4,7 @@
   $message = $_POST['message'];
 
   $email_subject = "New Form submission";
-  $email_body = "You have received a new message from %s.\n" . "Here is the message:\n %s", $name, $message;
+  $email_body = "You have received a new message from $name.\n Here is the message:\n $message";
 
 
   $to = "ISUWebDevClub@gmail.com";
