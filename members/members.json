@@ -27,6 +27,10 @@
     "Das Nick Cage": {
       "image": "http://www.placecage.com/g/500/500",
       "description": "Weirder than Weird Al"
+    },
+    "Stephen Davidson": {
+     "image": "../_images/members/Davidson-Stephen-md.jpg",
+     "description": "BS Computer Science Class of 2019"
     }
   }
 }
