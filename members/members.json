@@ -1,36 +1,68 @@
 {
   "members": {
-    "Nicolas Cage": {
-      "image": "http://www.placecage.com/g/200/200",
-      "description": "Mustachio extraordinaire"
+    "Nathan Karasch": {
+      "image": "../_images/members/Karasch-Nathan-md.jpg",
+      "description": "WDC President. Retired rockstar. US Marine. Cookie monster."
     },
-    "Nick Cage": {
-      "image": "http://www.placecage.com/g/250/250",
-      "description": "The original cupcake"
+    "Gregory Steenhagen": {
+      "image": "../_images/members/Steenhagen-Charlie-md.jpg",
+      "description": "WDC Vice President and Treasurer. Coolest member."
     },
-    "Nicky Cage": {
-      "image": "http://www.placecage.com/g/300/300",
-      "description": "My hair is a bird"
+    "Levi Baber": {
+      "image": "../_images/members/Baber-Levi-md.jpg",
+      "description": "WDC Adviser. IT Manager for ISU College of LAS."
     },
-    "Nickola Cage": {
-      "image": "http://www.placecage.com/g/350/350",
-      "description": "What is love?"
+    "Jeffrey Judge": {
+      "image": "../_images/members/judge-jeffrey-md.jpeg",
+      "description": "Freshman in Computer Science"
     },
-    "Cagicus Nickolus": {
-      "image": "http://www.placecage.com/g/400/400",
-      "description": "Smiles that make babies cry"
+    "Michielu Menning": {
+      "image": "../_images/members/Menning-Michielu-md.jpg" ,
+      "description": "Look good, feel good. feel good, do good."
     },
-    "Nich Cage": {
-      "image": "http://www.placecage.com/g/450/450",
-      "description": "I am not a demon. I am a lizard, a shark, a heat-seeking panther."
+    "Branden Lange": {
+      "image": "../_images/members/branden-lange-md.jpg",
+      "description": "What are snails even trying to do?"
     },
-    "Das Nick Cage": {
-      "image": "http://www.placecage.com/g/500/500",
-      "description": "Weirder than Weird Al"
+    "Robert Kloster": {
+      "image": "../_images/members/Kloster-Robert-md.jpg",
+      "description": "Senior in Software Engineering."
     },
+    "Steff Bisinger": {
+      "image": "../_images/members/steff-bisinger-md.jpg",
+      "description": "WDC Founding Member, Model#INFOSEC1337"
+    },
+    "Blake Skaja": {
+      "image": "../_images/members/Skaja-Blake-md.jpg",
+      "description": "WDC Founding Member. Just a web developing fool."
+    },
+    "Christine Hicaro": {
+      "image": "../_images/members/Hicaro-Christine-md.jpg",
+      "description": "Freshman in Software Engineering."
+    },
+    "Leelabari Fulbel": {
+      "image": "../_images/members/Fulbel-Leelabari-md.jpg",
+      "description": "Vice President and avid programmer. Freshman in Software Engineering",
+      "link": "http://first-leelabari-fulbel-website.appspot.com/"
+    },
+    "Robert Stemig": {
+      "image": "../_images/members/stemig-robert-md.jpeg",
+      "description": "Junior in Computer Engineering"
+    },
+
+    "Sydney Ehlinger": {
+      "image": "../_images/members/Ehlinger-Sydney-md.jpg",
+      "description": "Freshman in Computer Science"
+    },
+    "Paul Biermann": {
+      "image": "../_images/members/paul-biermann-md.jpg",
+      "description": "Sophomore in Computer Science"
+
     "Stephen Davidson": {
      "image": "../_images/members/Davidson-Stephen-md.jpg",
-     "description": "BS Computer Science Class of 2019"
+     "description": "Freshman in Computer Science"
+     "link": "http://stephen-davidson.appspot.com"
     }
+
   }
 }
