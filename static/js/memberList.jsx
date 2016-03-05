@@ -99,9 +99,9 @@ var Member = React.createClass({
         return (
             <div className="col-lg-3 col-sm-6">
                 <div className="thumbnail member-thumbnail">
-                    <a href='{this.prop.content.link}'><img src={this.props.content.image} className="img-circle" alt="picture api broken" style={{width: '200px', height: '200px'}} /></a>
+                    <img src={this.props.content.image} className="img-circle" alt="picture api broken" style={{width: '200px', height: '200px'}} />
                     <div className="caption">
-                        <h3 style={{marginTop: '5px'}}>{this.props.name}</h3>
+                        <h3 style={{marginTop: '5px'}}><a href="{this.props.link}">{this.props.name}</a></h3>
                         <p>{this.props.content.description}</p>
                     </div>
                 </div>
