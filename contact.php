@@ -3,8 +3,8 @@
   $visitor_email = strip_tags($_POST['email']);
   $message = htmlentities(strip_tags($_POST['message']));
 
-  $email_subject = "New Form submission from ".$name."";
-  $email_body = "We've recieved a new message: \n".$message."\n";
+  $email_subject = "New Message from ".$name."";
+  $email_body = "".$name." at <".$visitor_email."> tells us: \n".$message."\n";
 
 
   $to = "isuwebdevclub@gmail.com";
