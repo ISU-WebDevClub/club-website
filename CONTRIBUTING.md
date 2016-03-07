@@ -13,6 +13,9 @@ No worries! This is a club to *learn and grow* after all. You can find a wonderf
 
 Then just head to the [Issues](https://github.com/ISU-WebDevClub/club-website/issues) page to find a fun feature or bug to tackle. If you have problems or questions, feel free to reach out to one of the other club members, and they should be able to give you a hand getting started.
 
+
+Take a look at this while you are at it: http://scholarslab.org/research-and-development/forking-fetching-pushing-pulling/
+
 ## Issue Tracking
 
 We track bugs and features to be added in the [Issues](https://github.com/ISU-WebDevClub/club-website/issues) section.
