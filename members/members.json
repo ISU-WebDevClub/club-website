@@ -70,7 +70,11 @@
       "image": "../_images/members/paul-biermann-md.jpg",
       "description": "Sophomore in Computer Science",
       "link": "http://webdev.stuorg.iastate.edu/"
-    }
-
+    },
+     "Colin Heinrichs": {
+	 "image": "../_images/cage-superman.jpg",
+	 "description": "Sophomore in Software Engineering",
+	 "link": "http://webdev.stuorg.iastate.edu/"
+     }
   }
 }
