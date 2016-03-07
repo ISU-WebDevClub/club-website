@@ -53,7 +53,7 @@ var MemberList = React.createClass({
 
             // add a member to the next row
             var content = this.props.members['members'][member];
-            row.push(<Member content={content} name={member} />);
+            row.push(<Member content={content} name={member}/>);
             rowSize += 1;
         }
 
@@ -101,7 +101,7 @@ var Member = React.createClass({
                 <div className="thumbnail member-thumbnail">
                     <img src={this.props.content.image} className="img-circle" alt="picture api broken" style={{width: '200px', height: '200px'}} />
                     <div className="caption">
-                        <h3 style={{marginTop: '5px'}}><a href="{this.props.link}">{this.props.name}</a></h3>
+                        <h3 style={{marginTop: '5px'}}><a href={this.props.content.link} >{this.props.name}</a></h3>
                         <p>{this.props.content.description}</p>
                     </div>
                 </div>
