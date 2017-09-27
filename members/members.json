@@ -1,80 +1,34 @@
 {
   "members": {
-    "Nathan Karasch": {
-      "image": "../_images/members/Karasch-Nathan-md.jpg",
-      "description": "WDC President. Retired rockstar. US Marine. Cookie monster.",
-      "link": "http://webdev.stuorg.iastate.edu/"
-    },
-    "Gregory Steenhagen": {
-      "image": "../_images/members/Steenhagen-Charlie-md.jpg",
-      "description": "WDC Vice President and Treasurer. Coolest member.",
-      "link": "http://webdev.stuorg.iastate.edu/"
-    },
     "Levi Baber": {
       "image": "../_images/members/Baber-Levi-md.jpg",
       "description": "WDC Adviser. IT Manager for ISU College of LAS.",
       "link": "http://it.las.iastate.edu/people"
     },
-    "Jeffrey Judge": {
-      "image": "../_images/members/judge-jeffrey-md.jpeg",
-      "description": "Freshman in Computer Science",
-      "link": "http://webdev.stuorg.iastate.edu/"
-    },
-    "Michielu Menning": {
-      "image": "../_images/members/Menning-Michielu-md.jpg" ,
-      "description": "Look good, feel good. feel good, do good.",
-      "link": "http://webdev.stuorg.iastate.edu/"
-    },
-    "Branden Lange": {
-      "image": "../_images/members/branden-lange-md.jpg",
-      "description": "What are snails even trying to do?",
-      "link": "http://webdev.stuorg.iastate.edu/"
-    },
-    "Robert Kloster": {
-      "image": "../_images/members/Kloster-Robert-md.jpg",
-      "description": "Senior in Software Engineering.",
-      "link": "http://webdev.stuorg.iastate.edu/"
-    },
-    "Steff Bisinger": {
-      "image": "../_images/members/steff-bisinger-md.jpg",
-      "description": "WDC Founding Member, Model#INFOSEC1337",
-      "link": "http://webdev.stuorg.iastate.edu/"
-    },
-    "Blake Skaja": {
-      "image": "../_images/members/Skaja-Blake-md.jpg",
-      "description": "WDC Founding Member. Just a web developing fool.",
-      "link": "http://webdev.stuorg.iastate.edu/"
-    },
     "Christine Hicaro": {
       "image": "../_images/members/Hicaro-Christine-md.jpg",
-      "description": "Freshman in Software Engineering.",
+      "description": "Outreach Chair",
       "link": "http://webdev.stuorg.iastate.edu/"
     },
     "Leelabari Fulbel": {
       "image": "../_images/members/Fulbel-Leelabari-md.jpg",
-      "description": "Vice President. Can't Stop, Won't Stop.",
+      "description": "President",
       "link": "http://leelabari-fulbel-website.appspot.com/"
     },
-    "Robert Stemig": {
-      "image": "../_images/members/stemig-robert-md.jpeg",
-      "description": "Junior in Computer Engineering",
+    "Gabe": {
+      "image": "../_images/members/Cage-Nick-md.jpg",
+      "description": "Vice President",
       "link": "http://webdev.stuorg.iastate.edu/"
     },
-
-    "Sydney Ehlinger": {
-      "image": "../_images/members/Ehlinger-Sydney-md.jpg",
-      "description": "Freshman in Computer Science",
+    "Scott": {
+      "image": "../_images/members/Cage-Nick-md.jpg",
+      "description": "Treasurer",
       "link": "http://webdev.stuorg.iastate.edu/"
     },
-    "Paul Biermann": {
-      "image": "../_images/members/paul-biermann-md.jpg",
-      "description": "Sophomore in Computer Science",
+    "John Jago": {
+      "image": "../_images/members/Cage-Nick-md.jpg",
+      "description": "Webmaster",
       "link": "http://webdev.stuorg.iastate.edu/"
-    },
-     "Colin Heinrichs": {
-	 "image": "../_images/cage-superman.jpg",
-	 "description": "Sophomore in Software Engineering",
-	 "link": "http://webdev.stuorg.iastate.edu/"
-     }
+    }
   }
 }
