@@ -1,10 +1,15 @@
 {
-  "active": "Jewell Family Dentisty",
+  "active": "Jewell Family Dentistry",
   "projects": {
-    "Jewell Family Dentisty": {
-      "description": "We helped to complete the website for a dentist here in Iowa",
+    "Jewell Family Dentistry": {
+      "description": "We helped to complete the website for a dentist here in Iowa.",
       "image": "Jewell.PNG",
       "page": "http://www.jewellfamilydentistry.com/"
+    },
+    "You could work with us on another awesome project!": {
+      "description": "Visit the club on Mondays, 6-7 pm in Coover 1012.",
+      "image": "../_images/newbackground.jpg",
+      "page": "http://webdev.stuorg.iastate.edu/"
     }
   }
 }

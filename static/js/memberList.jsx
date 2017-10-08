@@ -79,7 +79,6 @@ var Member = React.createClass({
         content: React.PropTypes.shape({
             description: React.PropTypes.string.isRequired,
             image: React.PropTypes.string.isRequired,
-            link: React.PropTypes.string.isRequired
         }).isRequired,
         name: React.PropTypes.string
     },
@@ -89,7 +88,6 @@ var Member = React.createClass({
             content: {
                 description: '',
                 image: '',
-                link: ''
             },
             name: ''
         };
@@ -101,7 +99,7 @@ var Member = React.createClass({
                 <div className="thumbnail member-thumbnail">
                     <img src={this.props.content.image} className="img-circle" alt="picture api broken" style={{width: '200px', height: '200px'}} />
                     <div className="caption">
-                        <h3 style={{marginTop: '5px'}}><a href={this.props.content.link} >{this.props.name}</a></h3>
+                        <h3 style={{marginTop: '5px'}}>{this.props.name}</h3>
                         <p>{this.props.content.description}</p>
                     </div>
                 </div>
