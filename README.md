@@ -1,4 +1,4 @@
-# [Iowa State University Web Development Club - Website](http://webdev.stuorg.iastate.edu)
+# [Website for the Iowa State University Web Development Club](http://webdev.stuorg.iastate.edu)
 
 ## Welcome
 
@@ -12,7 +12,7 @@ For more information, contact us at isuwebdevclub@gmail.com.
 
 To contribute to this project, you may want to familiarize yourself with the following languages and technologies.
 
-### Front end
+### Front End
 
 **Languages**
 
@@ -32,7 +32,8 @@ To contribute to this project, you may want to familiarize yourself with the fol
 
 None (yet).
 
-### Back end
+### Back End
+
 This project does not have an active back end.
 
 ### Other Tools
