@@ -135,7 +135,7 @@ var CarouselItem = React.createClass({
                     <h3>{this.props.title}</h3>
                     <p>{this.props.project['description']}</p>
                     <p>
-                        <a className="btn btn-primary" href="javascript:void(0);" onClick={this.renderProject} role="button">Learn More</a>
+                        <a className="btn btn-primary" href={this.props.project['page']} onClick={this.renderProject} role="button">Check it out</a>
                     </p>
                 </div>
             </div>

@@ -118,3 +118,9 @@ body {
     z-index: 10;
     width: 100%;
 }
+
+/* Portfolio */
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.75);
+}

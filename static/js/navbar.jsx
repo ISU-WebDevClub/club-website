@@ -3,7 +3,7 @@ var NavBar = React.createClass({
         'Home': 'index.html',
         'About': 'about/about.html',
         'Portfolio': 'portfolio/portfolio.html',
-        'Members': 'members/members.html',
+        'Cabinet': 'members/members.html',
         'Resources': 'resources/resources.html'
     },
 
