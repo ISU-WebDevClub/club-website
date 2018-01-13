@@ -5,27 +5,27 @@
       "description": "WDC Adviser. IT Manager for ISU College of LAS.",
       "link": "http://it.las.iastate.edu/people"
     },
-    "Christine Hicaro": {
-      "image": "../_images/members/Hicaro-Christine-md.jpg",
+    "Thien Le": {
+      "image": "../_images/members/no-profile.jpg",
       "description": "Outreach Chair",
       "link": "http://webdev.stuorg.iastate.edu/"
     },
-    "Leelabari Fulbel": {
-      "image": "../_images/members/Fulbel-Leelabari-md.jpg",
-      "description": "President",
-      "link": "http://webdev.stuorg.iastate.edu/"
-    },
-    "Gabriel Butruille": {
+    "John Jago": {
       "image": "../_images/members/no-profile.jpg",
-      "description": "Vice President",
+      "description": "President",
       "link": "http://webdev.stuorg.iastate.edu/"
     },
     "Scott Huffman": {
       "image": "../_images/members/no-profile.jpg",
+      "description": "Vice President",
+      "link": "http://webdev.stuorg.iastate.edu/"
+    },
+    "Leelabari Fulbel": {
+      "image": "../_images/members/Fulbel-Leelabari-md.jpg",
       "description": "Treasurer",
       "link": "http://webdev.stuorg.iastate.edu/"
     },
-    "John Jago": {
+    "Gabriel Butruille": {
       "image": "../_images/members/no-profile.jpg",
       "description": "Webmaster",
       "link": "http://webdev.stuorg.iastate.edu/"
