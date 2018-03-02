@@ -1,10 +1,10 @@
-# [Website for the Iowa State University Web Development Club](http://webdev.stuorg.iastate.edu)
+# Iowa State University Web Development Club
 
-## Welcome
+## Welcome!
 
 Welcome to the GitHub repo for the [ISU Web Dev Club's website](http://webdev.stuorg.iastate.edu).
 
-To contribute to this repo, see [CONTRIBUTING.md](https://github.com/ISU-WebDevClub/club-website/blob/master/CONTRIBUTING.md).
+To contribute, see [CONTRIBUTING.md](https://github.com/ISU-WebDevClub/club-website/blob/master/CONTRIBUTING.md).
 
 For more information, contact us at isuwebdevclub@gmail.com.
 
