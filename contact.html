@@ -1,122 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Document meta -->
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <!-- Document meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- Other meta -->
-        <meta name="description" content="The Web Development Club at Iowa State University is a community of students who want to learn about and practice web development.">
-        <meta name="author" content="ISU Web Dev Club members">
-        <link rel="icon" href="favicon.ico">
-        <title>Contact | Web Development Club</title>
+  <!-- Other meta -->
+  <meta name="description" content="The Web Development Club at Iowa State University is a community of students who want to learn about and practice web development.">
+  <meta name="author" content="ISU Web Dev Club members">
+  <link rel="icon" href="favicon.ico">
+  <title>Contact | Web Development Club</title>
 
-        <!-- Vendor CSS -->
-        <link rel="stylesheet" href="static/vend/bootstrap-3.3.5/bootstrap.min.css" />
-        <link rel="stylesheet" href="static/vend/bootstrap-3.3.5/bootstrap-theme.min.css" />
-        <link rel="stylesheet" href="static/vend/font-awesome-4.4.0/font-awesome.min.css" />
-        <link rel="stylesheet" href="static/vend/bootstrap-social-4.10.1.css" />
+  <!-- Vendor CSS -->
+  <link rel="stylesheet" href="static/vend/bootstrap-3.3.5/bootstrap.min.css" />
+  <link rel="stylesheet" href="static/vend/bootstrap-3.3.5/bootstrap-theme.min.css" />
+  <link rel="stylesheet" href="static/vend/font-awesome-4.4.0/font-awesome.min.css" />
+  <link rel="stylesheet" href="static/vend/bootstrap-social-4.10.1.css" />
 
-        <!-- Custom CSS -->
-        <link href="static/css/site-theme.css" rel="stylesheet">
-        <link href="static/css/jumbotron.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="static/css/site-theme.css" rel="stylesheet">
+  <link href="static/css/jumbotron.css" rel="stylesheet">
 
-        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-        <![endif]-->
-    </head>
-    <body>
-        <div id="navbar"></div>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div id="navbar"></div>
 
-        <div class="bg">
-            <img src="_images/divider.png" alt="chalkboard shelf">
-        </div>
-        <div class="jumbotron">
-            <div class="container">
-                <h1>Want us to make your website?</h1>
+  <div class="bg">
+    <img src="_images/divider.png" alt="chalkboard shelf">
+  </div>
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Want us to make your website?</h1>
+    </div>
+  </div>
+  <!-- Form for requests -->
+  <div class="container">
+    <div class="container">
+      <h2 class="page-header">Contact Us</h2>
+    </div>
+    <div class="container">
+      <div class="col-lg-8 col-md-10">
+        <p>
+          Shoot us an <b><a href="mailto:ISUWebDevClub@gmail.com">email</a></b> if you're interested in WDC making your next website.
+          Make sure you try to include as much detail as necessary to convey the scope of the project.
+          That helps members determine if they have the time/resources to tackle it.
+        </p>
+        <p>Below are a few of the questions we consider when approaching a possible project:</p>
+        <ul>
+          <li>What do want the website to accomplish?</li>
+          <li>When does it need to be finished? Is that deadline flexible?</li>
+          <li>Is this a re-design of a previous website? If so, what changes are you looking for?</li>
+          <li>Do you have a few examples of existing websites that have a similar look/feel as what you're trying to achieve?</li>
+          <li>Are you wanting a simple landing page website? Or will it have multiple pages and sub-pages?</li>
+          <li>Is design-work needed or do you already have a design for the website?</li>
+          <li>Is there already content (written text, artwork, etc) or will that need to be created?</li>
+          <li>Will there be a blog or any other kind of serialized content?</li>
+          <li>Will the website be selling anything? (Not sure we can do those as a university club, but
+          individual members may still want to tackle it)</li>
+          <li>What other features are you looking for in the website?</li>
+        </ul>
+        <p>
+          If you don't know the answers to all those questions right away, that's ok! But it will
+          help us better determine if we'll be able to help you.
+        </p>
+        <p>
+          <strong>One more thing:</strong> You'll have better luck if you approach us towards the
+          beginning of the semester, since everyone tends to get really busy with schoolwork about
+          halfway through the semester.
+        </p>
+        <br><br>
+        <div>
+          <form action="contact.php" method="post" name="myemailform" enctype="multipart/form-data">
+            <div class="form-group">
+              <label for="email">Your Email Address</label>
+              <input type="email" class="form-control" id="email" placeholder="Email" name="email">
             </div>
-        </div>
-        <!-- Form for requests -->
-        <div class="container">
-            <div class="container">
-                <h2 class="page-header">Contact Us</h2>
+            <div class="form-group">
+              <label for="name">Your Name or Organization</label>
+              <input type="text" class="form-control" id="org" placeholder="Name/Organization" name="name">
             </div>
-            <div class="container">
-                <div class="col-lg-8 col-md-10">
-                    <p>Shoot us an <b><a href="mailto:ISUWebDevClub@gmail.com">email</a></b> if you're interested in WDC making your next website.
-                        Make sure you try to include as much detail as necessary to convey the scope of the project.
-                        That helps members determine if they have the time/resources to tackle it.</p>
-
-                    <p>Below are a few of the questions we consider when approaching a possible project:</p>
-
-                    <ul>
-                        <li>What do want the website to accomplish?</li>
-                        <li>When does it need to be finished? Is that deadline flexible?</li>
-                        <li>Is this a re-design of a previous website? If so, what changes are you looking for?</li>
-                        <li>Do you have a few examples of existing websites that have a similar look/feel as what you're trying to achieve?</li>
-                        <li>Are you wanting a simple landing page website? Or will it have multiple pages and sub-pages?</li>
-                        <li>Is design-work needed or do you already have a design for the website?</li>
-                        <li>Is there already content (written text, artwork, etc) or will that need to be created?</li>
-                        <li>Will there be a blog or any other kind of serialized content?</li>
-                        <li>Will the website be selling anything? (Not sure we can do those as a university club, but
-                        individual members may still want to tackle it)</li>
-                        <li>What other features are you looking for in the website?</li>
-                    </ul>
-
-                    <p>If you don't know the answers to all those questions right away, that's ok! But it will
-                    help us better determine if we'll be able to help you.</p>
-
-                    <p><strong>One more thing:</strong> You'll have better luck if you approach us towards the
-                        beginning of the semester, since everyone tends to get really busy with schoolwork about
-                        halfway through the semester.</p>
-                    <br><br>
-
-                    <div>
-                      <form action="contact.php" method="post" name="myemailform" enctype="multipart/form-data">
-                          <div class="form-group">
-                              <label for="email">Your Email Address</label>
-                              <input type="email" class="form-control" id="email" placeholder="Email" name="email">
-                          </div>
-                          <div class="form-group">
-                              <label for="name">Your Name or Organization</label>
-                              <input type="text" class="form-control" id="org" placeholder="Name/Organization" name="name">
-                          </div>
-                          <div class="form-group">
-                              <label for="message">Your Message</label>
-                              <textarea class="form-control" rows="3" type="text" id="msg" placeholder="Message" name="message"></textarea>
-                          </div>
-                          <div class="form-group">
-                              <button type="submit" class="btn btn-primary">Submit</button>
-                          </div>
-                      </form>
-
-                  </div>
-
-                </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea class="form-control" rows="3" type="text" id="msg" placeholder="Message" name="message"></textarea>
             </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
         </div>
+      </div>
+    </div>
+  </div>
 
-        <div id="footer"></div>
+  <div id="footer"></div>
 
-        <!-- Vendor JS -->
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script type="text/javascript" src="static/js/ie10-viewport-bug-workaround.js"></script>
-        <script type="text/javascript" src="static/vend/bootstrap-3.3.5/bootstrap.min.js"></script>
-        <script type="text/javascript" src="static/vend/react-0.13.3/react.min.js"></script>
-        <script type="text/javascript" src="static/vend/react-0.13.3/JSXTransformer.js"></script>
+  <!-- Vendor JS -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript" src="static/js/ie10-viewport-bug-workaround.js"></script>
+  <script type="text/javascript" src="static/vend/bootstrap-3.3.5/bootstrap.min.js"></script>
+  <script type="text/javascript" src="static/vend/react-0.13.3/react.min.js"></script>
+  <script type="text/javascript" src="static/vend/react-0.13.3/JSXTransformer.js"></script>
 
-        <!-- Custom JSX -->
-        <!-- Note: This page doesn't parallax the jumbotron because it makes the page bounce -->
-        <script type="text/jsx" src="static/js/navbar.jsx"></script>
-        <script type="text/jsx">
-            React.render(
-                    <NavBar active="Contact Us" />,
-                    document.getElementById('navbar')
-            );
-        </script>
-        <script type="text/jsx" src="static/js/footer.jsx"></script>
-    </body>
+  <!-- Custom JSX -->
+  <!-- Note: This page doesn't parallax the jumbotron because it makes the page bounce -->
+  <script type="text/jsx" src="static/js/navbar.jsx"></script>
+  <script type="text/jsx">
+    React.render(
+      <NavBar active="Contact Us" />,
+      document.getElementById('navbar')
+    );
+  </script>
+  <script type="text/jsx" src="static/js/footer.jsx"></script>
+</body>
 </html>
