@@ -77,7 +77,7 @@ var NavBar = React.createClass({
               <span className="icon-bar" />
             </button>
             <a id="corner-logo-shadow" className="navbar-brand" href={pathPrefix + 'index.html'}>
-              <img id="corner-logo" src={pathPrefix + '_images/WDC-logo.png'} alt="Web Development Club Logo" />
+              <img id="corner-logo" src={pathPrefix + '_images/wdc-logo.png'} alt="Web Development Club Logo" />
             </a>
           </div>
           <div className="collapse navbar-collapse" id="header-navbar-collapse" style={{marginLeft: 120}}>
