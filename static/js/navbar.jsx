@@ -3,12 +3,12 @@ var NavBar = React.createClass({
     'Home': 'index.html',
     'About': 'about/about.html',
     'Portfolio': 'portfolio/portfolio.html',
-    'Cabinet': 'members/members.html',
+    'Members': 'members/members.html',
     'Resources': 'resources/resources.html'
   },
 
   rightPages: {
-    'Contact Us': 'contact.html'
+    'Contact us': 'contact.html'
   },
 
   propTypes: {
