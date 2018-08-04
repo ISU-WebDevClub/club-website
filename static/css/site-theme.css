@@ -86,6 +86,12 @@ body {
   z-index: 10;
 }
 
+.links-on-black a:link,
+.links-on-black a:visited {
+  color: #75bde4;
+  font-weight: bold;
+}
+
 /* Portfolio */
 
 .carousel-caption {
