@@ -1,4 +1,8 @@
-# Web Development Club at Iowa State University
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ISU-WebDevClub/club-website/fall-2018-updates/_images/wdc-logo.png" width="144" height="180">
+
+  <h1>Web Development Club at Iowa State University</h1>
+</div>
 
 Welcome to the GitHub repository for the [club's website](http://webdev.stuorg.iastate.edu).
 
