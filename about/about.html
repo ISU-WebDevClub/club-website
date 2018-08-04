@@ -152,6 +152,7 @@
     <div id="club-photos">
       <h2>Photo Gallery</h2>
       <div id="photos-container"></div>
+      <a class="btn btn-default" href="https://www.stuorg.iastate.edu/site/web-dev-club/photo-gallery" target="_blank" role="button">Go to WDC Student Organization photo gallery &raquo;</a>
     </div>
   </div>
 
@@ -175,7 +176,8 @@
   <script type="text/jsx" src="../static/js/footer.jsx"></script>
 
   <!--Custom JS-->
-  <script>
+  <!-- This does not work anymore because the two sites are not located on the same domain anymore. (They probably were in the past.) -->
+  <!-- <script>
     // The goal here is to pull from https://www.stuorg.iastate.edu/site/web-dev-club/photo-gallery
     $.get('/site/web-dev-club/photo-gallery/129/album').success(function (data) {
       $(data).find('.image').appendTo('#photos-container');
@@ -183,6 +185,6 @@
       console.log('There was a problem connecting to the student organization database. (This error should disappear once the page is on the iastate.edu domain)');
       $('#photos-container').append('<br><p>There was a problem connecting to the student organization database. (This error should disappear once the page is on the iastate.edu domain)<br><br><a class="btn btn-default" href="https://www.stuorg.iastate.edu/site/web-dev-club/photo-gallery" target="_blank" role="button">Go to WDC Student Organization photo gallery &raquo;</a>');
     });
-  </script>
+  </script> -->
 </body>
 </html>

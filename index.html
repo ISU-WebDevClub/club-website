@@ -52,6 +52,7 @@
         <div id="annoucements">
           <h2>Announcements</h2>
           <!--The javascript at the bottom loads this with announcements from the Student Organization database.-->
+          <a class="btn btn-default" href="https://www.stuorg.iastate.edu/site/web-dev-club" role="button">Go to WDC Student Organization announcements page &raquo;</a>
           <div id="announcements-blockquote"></div>
         </div>
       </div>
@@ -108,7 +109,8 @@
 
   <!-- Custom JS -->
   <script src="static/js/jumbotron_parallax.js"></script>
-  <script>
+  <!-- This does not work anymore because the two sites are not located on the same domain anymore. (They probably were in the past.) -->
+  <!-- <script>
     $.get('/site/web-dev-club').success(function (data) {
       // The goal here is to pull from https://www.stuorg.iastate.edu/site/web-dev-club
       $(data).find('blockquote').appendTo('#announcements-blockquote');
@@ -116,6 +118,6 @@
       console.log('There was a problem connecting to the student organization database. (This error should disappear once the page is on the iastate.edu domain)');
       $('#announcements-blockquote').append('<br><p>There was a problem connecting to the student organization database. (This error should disappear once the page is on the iastate.edu domain)<br><br><a class="btn btn-default" href="https://www.stuorg.iastate.edu/site/web-dev-club" role="button">Go to WDC Student Organization announcements page &raquo;</a>');
     });
-  </script>
+  </script> -->
 </body>
 </html>
