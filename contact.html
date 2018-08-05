@@ -30,74 +30,70 @@
 </head>
 <body>
   <div id="navbar"></div>
-
   <div class="bg">
     <img src="_images/divider.png" alt="chalkboard shelf">
   </div>
   <div class="jumbotron">
     <div class="container">
-      <h1>Want us to make your website?</h1>
+      <h1>Want to join, request a project, or sponsor us?</h1>
     </div>
   </div>
   <!-- Form for requests -->
-  <div class="container">
-    <div class="container">
-      <h2 class="page-header">Contact Us</h2>
-    </div>
-    <div class="container">
-      <div class="col-lg-8 col-md-10">
-        <p>
-          Shoot us an <b><a href="mailto:ISUWebDevClub@gmail.com">email</a></b> if you're interested in WDC making your next website.
-          Make sure you try to include as much detail as necessary to convey the scope of the project.
-          That helps members determine if they have the time/resources to tackle it.
-        </p>
-        <p>Below are a few of the questions we consider when approaching a possible project:</p>
-        <ul>
-          <li>What do want the website to accomplish?</li>
-          <li>When does it need to be finished? Is that deadline flexible?</li>
-          <li>Is this a re-design of a previous website? If so, what changes are you looking for?</li>
-          <li>Do you have a few examples of existing websites that have a similar look/feel as what you're trying to achieve?</li>
-          <li>Are you wanting a simple landing page website? Or will it have multiple pages and sub-pages?</li>
-          <li>Is design-work needed or do you already have a design for the website?</li>
-          <li>Is there already content (written text, artwork, etc) or will that need to be created?</li>
-          <li>Will there be a blog or any other kind of serialized content?</li>
-          <li>Will the website be selling anything? (Not sure we can do those as a university club, but
-          individual members may still want to tackle it)</li>
-          <li>What other features are you looking for in the website?</li>
-        </ul>
-        <p>
-          If you don't know the answers to all those questions right away, that's ok! But it will
-          help us better determine if we'll be able to help you.
-        </p>
-        <p>
-          <strong>One more thing:</strong> You'll have better luck if you approach us towards the
-          beginning of the semester, since everyone tends to get really busy with schoolwork about
-          halfway through the semester.
-        </p>
-        <br><br>
-        <div>
-          <form action="contact.php" method="post" name="myemailform" enctype="multipart/form-data">
-            <div class="form-group">
-              <label for="email">Your Email Address</label>
-              <input type="email" class="form-control" id="email" placeholder="Email" name="email">
-            </div>
-            <div class="form-group">
-              <label for="name">Your Name or Organization</label>
-              <input type="text" class="form-control" id="org" placeholder="Name/Organization" name="name">
-            </div>
-            <div class="form-group">
-              <label for="message">Your Message</label>
-              <textarea class="form-control" rows="3" type="text" id="msg" placeholder="Message" name="message"></textarea>
-            </div>
-            <div class="form-group">
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-          </form>
+  <div class="container links-on-black">
+    <h2 class="page-header">Contact Us</h2>
+    <div class="col-lg-8 col-md-10">
+      <h3>Joining</h3>
+      <p>There are no requirements, no dues, and no prior knowledge of web development is necessary. All majors are welcome. If you want to join, visit our <a href="https://www.stuorg.iastate.edu/site/web-dev-club">Student Organization page</a> and click <strong>Join</strong> or <strong>Subscribe</strong>. After doing this, you will receive weekly emails about upcoming meetings.</p>
+      <h3>Project Requests</h3>
+      <p>
+        Fill our the form below or shoot us an <a href="mailto:ISUWebDevClub@gmail.com">email</a> if you're interested in WDC making your next website.
+        Make sure you try to include as much detail as necessary to convey the scope of the project.
+        That helps members determine if they have the time/resources to tackle it.
+      </p>
+      <p>Below are a few of the questions we consider when approaching a possible project:</p>
+      <ul>
+        <li>What do want the website to accomplish?</li>
+        <li>When does it need to be finished? Is that deadline flexible?</li>
+        <li>Is this a re-design of a previous website? If so, what changes are you looking for?</li>
+        <li>Do you have a few examples of existing websites that have a similar look/feel as what you're trying to achieve?</li>
+        <li>Are you wanting a simple landing page website? Or will it have multiple pages and sub-pages?</li>
+        <li>Is design-work needed or do you already have a design for the website?</li>
+        <li>Is there already content (written text, artwork, etc.) or will that need to be created?</li>
+        <li>Will there be a blog or any other kind of dynamic content?</li>
+        <li><strong>Will the website be selling anything or be used for commercial purposes?</strong> We cannot do these projects as a university club, but individual members may want to get involved.</li>
+      </ul>
+      <p>
+        If you don't know the answers to all those questions right away, that's okay! But it will
+        help us better determine if we'll be able to help you.
+      </p>
+      <p>
+        <strong>One more thing</strong>: You'll have better luck if you approach us towards the
+        beginning of a semester, since everyone tends to get busy with schoolwork about
+        halfway through the semester.
+      </p>
+      <h3>Sponsorship</h3>
+      <p>Does your company or organization want to connect with and support dedicated, creative students? Fill out the form below and we'll get in touch!</p>
+      <br>
+      <form action="contact.php" method="post" name="myemailform" enctype="multipart/form-data">
+        <div class="form-group">
+          <label for="email">Your Email Address</label>
+          <input type="email" class="form-control" id="email" placeholder="Email" name="email">
         </div>
-      </div>
+        <div class="form-group">
+          <label for="name">Your Name or Organization</label>
+          <input type="text" class="form-control" id="org" placeholder="Name/Organization" name="name">
+        </div>
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea class="form-control" rows="3" type="text" id="msg" placeholder="Message" name="message"></textarea>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
     </div>
   </div>
-
+  <br>
   <div id="footer"></div>
 
   <!-- Vendor JS -->

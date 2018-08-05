@@ -9,7 +9,7 @@ var Footer = React.createClass({
             <p
               className="text-muted"
               style={{marginBottom: '0px', marginTop: '7px'}}>
-              For more information, <a href="mailto:ISUWebDevClub@gmail.com">contact us</a> or check us out on social media.
+              For more information, <a href="contact.html">contact us</a> or check us out on social media.
             </p>
           </span>
           <span className="pull-right">

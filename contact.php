@@ -6,7 +6,7 @@
   $email_body = "".$name." at <".$visitor_email."> tells us: \n".$message."\n";
   $to = "isuwebdevclub@gmail.com";
 
-  mail($to,$email_subject,$email_body);
+  mail($to, $email_subject, $email_body);
   header("Location: /");
 
   exit(0);
