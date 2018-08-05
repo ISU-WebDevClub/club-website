@@ -15,6 +15,7 @@ body {
 #footer {
   background-color: #f5f5f5;
   bottom: 0;
+  color: #333;
   height: 75px;
   position: absolute;
   width: 100%;
@@ -84,6 +85,14 @@ body {
   position: fixed;
   width: 100%;
   z-index: 10;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #333;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background: #eee;
 }
 
 .links-on-black a:link,

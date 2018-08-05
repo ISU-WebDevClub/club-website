@@ -7,7 +7,6 @@ var Footer = React.createClass({
             className="footer-text pull-left"
             style={{marginBottom: '0px', marginRight: '10px', maxWidth: '65%'}}>
             <p
-              className="text-muted"
               style={{marginBottom: '0px', marginTop: '7px'}}>
               For more information, <a href="contact.html">contact us</a> or check us out on social media.
             </p>
