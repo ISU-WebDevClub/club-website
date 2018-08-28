@@ -1,17 +1,17 @@
 {
   "members": {
     "Levi Baber": {
-      "image": "../_images/members/Baber-Levi-md.jpg",
+      "image": "../_images/members/baber-levi.jpg",
       "description": "WDC Adviser. IT Manager for ISU College of LAS.",
       "link": "http://it.las.iastate.edu/people"
     },
-    "Thien Le": {
+    "Maxwell DeVos": {
       "image": "../_images/members/no-profile.jpg",
       "description": "Outreach Chair",
       "link": "http://webdev.stuorg.iastate.edu/"
     },
     "John Jago": {
-      "image": "../_images/members/no-profile.jpg",
+      "image": "../_images/members/jago-john.jpg",
       "description": "President",
       "link": "http://webdev.stuorg.iastate.edu/"
     },
@@ -21,7 +21,7 @@
       "link": "http://webdev.stuorg.iastate.edu/"
     },
     "Leelabari Fulbel": {
-      "image": "../_images/members/Fulbel-Leelabari-md.jpg",
+      "image": "../_images/members/fulbel-leelabari.jpg",
       "description": "Treasurer",
       "link": "http://webdev.stuorg.iastate.edu/"
     },

@@ -1,15 +1,10 @@
 {
-  "active": "Jewell Family Dentistry",
+  "active": "View our GitHub to see what we've been working on!",
   "projects": {
-    "Jewell Family Dentistry": {
-      "description": "We helped to complete the website for a dentist here in Iowa.",
-      "image": "Jewell.PNG",
-      "page": "http://www.jewellfamilydentistry.com/"
-    },
-    "You could work with us on another awesome project!": {
-      "description": "Visit the club on Thursdays, 6-7 pm in Coover 1011.",
-      "image": "../_images/newbackground.jpg",
-      "page": "http://webdev.stuorg.iastate.edu/"
+    "View our GitHub to see what we've been working on!": {
+      "description": "Come to our weekly club meeting to get in on the action.",
+      "image": "../_images/background.jpg",
+      "page": "http://github.com/ISU-WebDevClub"
     }
   }
 }

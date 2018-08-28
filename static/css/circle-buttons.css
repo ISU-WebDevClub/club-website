@@ -1,39 +1,39 @@
 .btn-circle {
-  width: 49px;
-  height: 49px;
-  text-align: center;
-  padding: 5px 0;
-  font-size: 20px;
-  line-height: 2.00;
   border-radius: 30px;
+  font-size: 20px;
+  height: 49px;
+  line-height: 2.00;
+  padding: 5px 0;
+  text-align: center;
+  width: 49px;
 }
 
 .btn-circle-micro {
-  width: 19px;
-  height: 19px;
-  text-align: center;
-  padding: 1px 0;
-  font-size: 13px;
-  line-height: 0.1;
   border-radius: 30px;
+  font-size: 13px;
+  height: 19px;
+  line-height: 0.1;
+  padding: 1px 0;
+  text-align: center;
+  width: 19px;
 }
 
 .btn-circle-sm {
-  width: 35px;
-  height: 35px;
-  text-align: center;
-  padding: 2px 0;
-  font-size: 20px;
-  line-height: 1.65;
   border-radius: 30px;
+  font-size: 20px;
+  height: 35px;
+  line-height: 1.65;
+  padding: 2px 0;
+  text-align: center;
+  width: 35px;
 }
 
 .btn-circle-lg {
-  width: 79px;
-  height: 79px;
-  text-align: center;
-  padding: 13px 0;
-  font-size: 30px;
-  line-height: 2.00;
   border-radius: 70px;
+  font-size: 30px;
+  height: 79px;
+  line-height: 2.00;
+  padding: 13px 0;
+  text-align: center;
+  width: 79px;
 }
