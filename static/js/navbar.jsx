@@ -2,7 +2,7 @@ var NavBar = React.createClass({
   leftPages: {
     'Home': 'index.html',
     'About': 'about/about.html',
-    'Portfolio': 'portfolio/portfolio.html',
+    'Projects': 'https://github.com/ISU-WebDevClub',
     'Members': 'members/members.html',
     'Resources': 'resources/resources.html'
   },
