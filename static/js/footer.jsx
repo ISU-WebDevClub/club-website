@@ -8,7 +8,7 @@ var Footer = React.createClass({
             style={{marginBottom: '0px', marginRight: '10px', maxWidth: '65%'}}>
             <p
               style={{marginBottom: '0px', marginTop: '7px'}}>
-              For more information, <a href="contact.html">contact us</a> or check us out on social media.
+              For more information, <a href="/contact.html">contact us</a> or check us out on social media.
             </p>
           </span>
           <span className="pull-right">
