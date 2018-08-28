@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ISU-WebDevClub/club-website/fall-2018-updates/_images/wdc-logo.png" width="144" height="180">
+  <img src="https://raw.githubusercontent.com/ISU-WebDevClub/club-website/master/_images/wdc-logo.png" width="144" height="180">
 
   <h1>Web Development Club at Iowa State University</h1>
 </div>
