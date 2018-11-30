@@ -7,28 +7,34 @@
     },
     "Maxwell DeVos": {
       "image": "../_images/members/no-profile.jpg",
-      "description": "Outreach Chair",
+      "description": "President",
       "link": "http://webdev.stuorg.iastate.edu/"
     },
     "John Jago": {
       "image": "../_images/members/jago-john.jpg",
-      "description": "President",
+      "description": "Treasurer",
       "link": "http://webdev.stuorg.iastate.edu/"
     },
-    "Scott Huffman": {
+    "Mason Timmerman": {
       "image": "../_images/members/no-profile.jpg",
       "description": "Vice President",
       "link": "http://webdev.stuorg.iastate.edu/"
     },
-    "Leelabari Fulbel": {
-      "image": "../_images/members/fulbel-leelabari.jpg",
-      "description": "Treasurer",
+    "Hannah Monk": {
+      "image": "../_images/members/no-profile.jpg",
+      "description": "Outreach Chair",
       "link": "http://webdev.stuorg.iastate.edu/"
     },
     "Tushar Sharma": {
-      "image": "../_images/members/no-profile.jpg",
+      "image": "../_images/members/tushar-sharma.jpg",
       "description": "Webmaster",
       "link": "http://webdev.stuorg.iastate.edu/"
+    },
+      "Hannah Monk": {
+        "image": "../_images/members/no-profile.jpg",
+        "description": "Technical Adviser",
+        "link": "http://webdev.stuorg.iastate.edu/"
+      },
     }
   }
 }
