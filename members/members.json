@@ -21,7 +21,7 @@
       "link": "http://webdev.stuorg.iastate.edu/"
     },
     "Hannah Monk": {
-      "image": "../_images/members/hannah-monk.jpg",
+      "image": "../_images/members/hannah-monk-2.jpg",
       "description": "Outreach Chair",
       "link": "http://webdev.stuorg.iastate.edu/"
     },
@@ -30,11 +30,10 @@
       "description": "Webmaster",
       "link": "http://webdev.stuorg.iastate.edu/"
     },
-      "Diana Wu": {
-        "image": "../_images/members/no-profile.jpg",
-        "description": "Technical Adviser",
-        "link": "http://webdev.stuorg.iastate.edu/"
-      },
+    "Diana Wu": {
+      "image": "../_images/members/no-profile.jpg",
+      "description": "Technical Adviser",
+      "link": "http://webdev.stuorg.iastate.edu/"
     }
   }
 }
